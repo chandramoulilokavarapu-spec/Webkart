@@ -4,11 +4,15 @@ body{
     color:#222222;
 
 }
+nav a{
+    border-radius: 10px;
+}
 .nav-bar .logo{
     color:rgb(225,149,0);
     font-weight:bold;
     text-decoration:none;
     font-size:24px;
+    
 } 
 .nav-bar .logo span{
     color:#00b3ff;
@@ -49,7 +53,7 @@ color: rgb(218, 209, 209);
     border-radius: 10px;
     color:white;
 }
-.sub{
+.hero{
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -57,7 +61,7 @@ color: rgb(218, 209, 209);
     width:100%;
     align-items: center;
     min-height: 600px;
-    background: linear-gradient(rgba(32,25,25,0.5),rgba(26,18,18,0.45)),url("./bg.jpeg");
+    background: linear-gradient(rgba(32,10,10,0.5),rgba(26,18,18,0.45)),url("./bg.jpeg");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -94,10 +98,54 @@ color: rgb(218, 209, 209);
     justify-content: center;
     gap: 12px;
     padding: 10px;
+    align-items: center;
+    transition: transform 0.3s ease;
+    color: brown;
+    border-radius: 10px;
 }
 .cat-card img{
     width: 90px;
     height:90px;
     object-fit: contain;
     border-radius: 12px;
+}
+.cat-card:hover{
+    transform: scale(1.05);
+}
+.deals {
+    display:flex;
+    flex-direction: column;
+
+}
+.deals-cards{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.deals-card{
+    width: 170px;
+    height: 180px;
+    background-color: whitesmoke;
+    background: radius 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px;
+    align-items: center;
+    transition: transform 0.3s ease;
+    color: brown;
+    border-radius: 10px;
+}
+.deals-card img{
+    width: 90px;
+    height:90px;
+    object-fit: contain;
+    border-radius: 12px;
+}
+.deals-card:hover{
+    transform: scale(1.05);
 }
