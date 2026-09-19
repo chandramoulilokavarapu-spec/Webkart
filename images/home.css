@@ -1,0 +1,84 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(221, 226, 230);
+    color:#222222;
+
+}
+.nav-bar .logo{
+    color:rgb(225,149,0);
+    font-weight:bold;
+    text-decoration:none;
+    font-size:24px;
+} 
+.nav-bar .logo span{
+    color:#00b3ff;
+}
+.Main-container .sub h1{
+    font-size: 25px;
+    color:rgb(52, 198, 255);
+}
+.Main-container .sub h2 span{
+    color: #d20d0d;
+}
+div a{
+    color:whitesmoke;
+    background-color: brown;
+    text-decoration: none;
+    padding:10px;
+    border: radius 10px;
+}
+.nav-bar{
+    display:flex;
+    justify-content:space-between;
+    }
+.nav-bar nav a{
+    color:#ff3700;
+    padding:10px;
+    text-decoration: none;
+    margin: 10px;
+}
+.nav-bar nav a:hover {
+background-color: #ff3700;
+padding: 10px;
+border: radius 10px;
+color: rgb(218, 209, 209);
+}
+.nav-bar .home1 {
+    background-color: #ff3700;
+    padding:8px;
+    border-radius: 10px;
+    color:white;
+}
+.sub{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding: opx 200px;
+    width:100%;
+    align-items: center;
+    min-height: 600px;
+    background: linear-gradient(rgba(32,25,25,0.5),rgba(26,18,18,0.45)),url("./bg.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.button{
+    color: #ffffff;
+    background-color: #803e2c;
+    text-decoration: none;
+    padding:10px;
+    border: radius 8px;
+    border:none;
+}
+.cat {
+    display:flex;
+    flex-direction: column;
+
+}
+.cat-cards{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
