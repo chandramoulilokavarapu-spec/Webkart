@@ -81,4 +81,23 @@ color: rgb(218, 209, 209);
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 25px;
+}
+.cat-card{
+    width: 170px;
+    height: 180px;
+    background-color: whitesmoke;
+    background: radius 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px;
+}
+.cat-card img{
+    width: 90px;
+    height:90px;
+    object-fit: contain;
+    border-radius: 12px;
 }
